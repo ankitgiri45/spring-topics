@@ -16,5 +16,10 @@ pipeline{
               }
             }
         }
+        stage("Done"){
+            steps{
+                echo "Completed"
+            }
+        }
     }
 }
